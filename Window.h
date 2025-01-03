@@ -23,5 +23,5 @@ private:
 	HWND m_handle; //窗口句柄
 	inline static ExMessage m_msg; //鼠标和键盘消息获取
 };
-//ExMessage Window::m_msg;//类内声明，类外需要初始化
+
 
