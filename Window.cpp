@@ -7,6 +7,7 @@ Window::Window(int w, int h, int flag)
     m_handle = ::initgraph(w, h, flag);
     //ÎÄ×ÖÍ¸Ã÷±³¾°
     ::setbkmode(TRANSPARENT);
+
 }
 
 void Window::setWindowTitle(const std::string& title)
